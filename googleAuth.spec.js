@@ -1,5 +1,3 @@
-const google = require('./google');
-
 describe('Google Auth error', () => {
     it('should sign in google', () => {
         browser.url('https://www.doodle.com');
